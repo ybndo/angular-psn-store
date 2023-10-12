@@ -1,0 +1,34 @@
+
+.card-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  color: white;
+  background-color: #000000b2;
+  padding: 5px 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card-footer .title {
+  width: 100%;
+}
+
+.subtitle .subtitle__platforms {
+  color: #858585;
+}
+
+.card-footer .price {
+  line-height: 0.8;
+  font-size: 1.4rem;
+}
+
+.st-separator {
+  font-size: 18px;
+  color: #1E7CA4;
+  font-weight: bolder;
+}
